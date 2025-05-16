@@ -1,34 +1,26 @@
 
 # Solar Challenge Week 1
 
-## How to set up the environment
+```bash
+#git clone https://github.com/your-username/solar-challenge-week1.git
+#cd solar-challenge-week1
 
-1. Clone the repository:
+1 Create and activate virtual environment:
+#python -m venv venv
+#source venv/Scripts/activate  # Windows
 
-LICENSE
-README.md
-notebooks
-requirements.txt
-scripts
-src
-tests
-venv
-[H[2J[3JRequirement already satisfied: numpy==2.2.5 in c:\users\yitbie\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from -r requirements.txt (line 1)) (2.2.5)bash
-git add README.md
-git commit -m docs: add README with setup instructions
+3.Install dependencies:
+#pip install -r requirements.txt
 
 
+4 You're good to go!
 
 
-# Solar Challenge Week 1
-
-## How to set up the environment
-
-1. Clone the repository:
-[H[2J[3Jbash
+Then:
+```bash
 #git add README.md
-#git commit -m docs: add README with setup instructions
-
+#git commit -m "docs: add README with setup instructions"
+>>>>>>> main
 
 
 
