@@ -1,7 +1,3 @@
-
-# Solar Challenge Week 1
-
-
 # Solar Challenge Week 1
 
 ## Objective
@@ -11,8 +7,6 @@ Get comfortable with version control and set up a consistent Python development 
 ---
 
 ##  Setup Instructions (Windows – Git Bash)
-
-## Setup Instructions (Windows – Git Bash)
 
 
 ### 1. Clone the Repository
