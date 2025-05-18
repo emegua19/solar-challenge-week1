@@ -4,7 +4,7 @@ data/
 *.ipynb_checkpoints/
 
 # Python
-pycache/
+__pycache__/
 *.pyc
 .venv/
 *.pyo
@@ -13,4 +13,3 @@ pycache/
 # Environment
 .env
 *.DS_Store
-
