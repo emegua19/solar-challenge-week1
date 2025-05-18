@@ -1,12 +1,6 @@
 # Solar Challenge Week 1
 
-## Objective
-
-Get comfortable with version control and set up a consistent Python development environment with CI before working with data.
-
----
-
-##  Setup Instructions (Windows – Git Bash)
+##  Setup Instructions
 
 
 ### 1. Clone the Repository
@@ -24,46 +18,6 @@ source .venv/Scripts/activate
 pip install -r requirements.txt
 
 pip freeze > requirements.txt
-
-# Create and switch to setup branch
-git checkout -b setup-task
-
-# Stage and commit important setup files
-git add .gitignore
-git commit -m "init: add .gitignore"
-
-git add requirements.txt
-git commit -m "chore: venv setup"
-
-git add .github/workflows/ci.yml
-git commit -m "ci: add GitHub Actions workflow"
-
-# Push to GitHub
-git push origin setup-task
-
-
-name: Python CI
-
-on: [push, pull_request]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Verify Python version
-        run: python --version
 
 solar-challenge-week1/
 ├── .vscode/
@@ -83,23 +37,6 @@ solar-challenge-week1/
 │   └── README.md
 └── tests/
     └── __init__.py
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-
-# Virtual Environments
-.venv/
-myvenv/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Data
-data/
-*.csv
-=======
-# Solar Challenge Week 1
 
 ## How to set up the environment
 
