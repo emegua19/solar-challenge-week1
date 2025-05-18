@@ -50,19 +50,6 @@ pip install -r requirements.txt
 
 ---
 
-## You're All Set!
-
-Once the setup is complete, you can begin working with the project.
-
-To commit your setup progress:
-
-```bash
-git add README.md
-git commit -m "docs: add README with setup instructions"
-```
-
----
-
 ##  Project Structure
 
 ```
